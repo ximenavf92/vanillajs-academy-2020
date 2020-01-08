@@ -1,0 +1,61 @@
+/* Main Styles VanillaJS Academy 2020 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    margin: 3em auto;
+    max-width: 50em;
+    width: 95%;
+    background: #0f0f0f;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 0 0 .3em;
+    letter-spacing: .01em;
+}
+
+h1 + p {
+    margin: 0 0 0 .5em;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .1em;
+}
+
+ul {
+    list-style: none;
+    margin: 2em auto;
+    margin-left: 0;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px 30px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border: solid 2px #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    background: #0f0f0f;
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.3);
+}
+
+ul li:hover {
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.8);
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
