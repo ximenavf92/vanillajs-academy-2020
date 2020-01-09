@@ -1,12 +1,20 @@
 /* Toggle Password Styles */ 
 @import url('https://fonts.googleapis.com/css?family=Gelasio:600|Montserrat:500&display=swap');
 
-.back-projects {
-    margin: 2.5em auto 0;
-    text-align: center;
+/* Project Buttons */
+.project-buttons {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
-.back-projects a {
+.back-projects,
+.view-github {
+    margin: 2.5em auto 0;
+    margin: 0 auto;
+    text-align: center;
     width: max-content;
     font-size: .8em;
     padding: 15px 20px;
@@ -17,20 +25,37 @@
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: .1em;
-    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.2);
 }
 
-.back-projects a:hover,
-.back-projects a:focus {
+.back-projects:hover,
+.back-projects:focus,
+.view-github:hover,
+.view-github:focus {
     outline: none;
-    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.8);
 }
 
-.back-projects a::before {
+.back-projects::before {
     content: '\003C';
     margin-right: 5px;
 }
 
+.view-github::before {
+    content: '';
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    margin-right: 10px;
+    background-image: url(/github-icon-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* End Project Buttons */
+
+/* Start Project Styles */
 body {
     margin: 2.5em auto 0;
     max-width: 40em;
@@ -92,10 +117,13 @@ input {
     font-size: .8em;
 }
 
-input:focus,
-[type="checkbox"]:focus {
+input:focus {
     outline: none;
     border: solid 4px rgba(152, 84, 203, 1);
+}
+
+[type="checkbox"]:focus {
+    outline: solid 3px rgba(152, 84, 203, 1);
 }
 
 [type="text"],
