@@ -32,22 +32,22 @@ h1 + p {
 
 ul {
     list-style: none;
-    margin: 2em auto;
+    margin: 2em auto 4em;
     margin-left: 0;
     padding-left: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px 30px;
+    gap: 15px 30px;
 }
 
 ul li {
     margin-bottom: 10px;
     padding: 15px 20px;
-    border: solid 2px #ffffff;
+    border: solid 1px #ffffff;
     border-radius: 12px;
     text-align: center;
     background: #0f0f0f;
-    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.1);
 }
 
 ul li:hover {
@@ -59,3 +59,47 @@ ul li a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/* Project Buttons */
+.project-buttons {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.view-github {
+    margin: 2.5em auto 0;
+    margin: 0 auto;
+    text-align: center;
+    width: max-content;
+    font-size: .8em;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border: solid 1px #ffffff;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.2);
+}
+
+.view-github:hover,
+.view-github:focus {
+    outline: none;
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.8);
+}
+
+.view-github::before {
+    content: '';
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url(/github-icon-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* End Project Buttons */
