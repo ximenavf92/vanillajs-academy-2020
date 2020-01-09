@@ -16,3 +16,6 @@ This is where [my projects](https://vanillajs-academy-2020-ximenavf.netlify.com)
 -   [Project 12: Coming Soon](https://vanillajs-academy-2020-ximenavf.netlify.com/12-project-twelve/)
 -   [Project 13: Coming Soon](https://vanillajs-academy-2020-ximenavf.netlify.com/13-project-thirteen/)
 -   [Project 14: Coming Soon](https://vanillajs-academy-2020-ximenavf.netlify.com/14-project-fourteen/)
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3884530-4ed5-4882-86d8-b961947f2017/deploy-status)](https://app.netlify.com/sites/vanillajs-academy-2020-ximenavf/deploys)
