@@ -3,7 +3,7 @@
 This is where [my projects](https://vanillajs-academy-2020-ximenavf.netlify.com) for [Chris Ferdinandi's](https://gomakethings.com/) [Vanilla JS Academy](https://vanillajsacademy.com/) 2020 will live. Let's give this Javascript thing a try.
 
 -   [Project 1: Toggle Password Visibility](https://vanillajs-academy-2020-ximenavf.netlify.com/1-project-one/)
--   [Project 2: Coming Soon](https://vanillajs-academy-2020-ximenavf.netlify.com/2-project-two/)
+-   [Project 2: Password Visibility - Multiple Fields](https://vanillajs-academy-2020-ximenavf.netlify.com/2-project-two/)
 -   [Project 3: Coming Soon](https://vanillajs-academy-2020-ximenavf.netlify.com/3-project-three/)
 -   [Project 4: Coming Soon](https://vanillajs-academy-2020-ximenavf.netlify.com/4-project-four/)
 -   [Project 5: Coming Soon](https://vanillajs-academy-2020-ximenavf.netlify.com/5-project-five/)
