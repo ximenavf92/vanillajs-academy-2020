@@ -58,7 +58,7 @@
 /* Start Project Styles */
 body {
     margin: 2.5em auto 0;
-    max-width: 40em;
+    max-width: 50em;
     width: 88%;
     background: #27104E;
     font-family: 'Montserrat', sans-serif;
@@ -87,6 +87,7 @@ form p {
 h1 {
     color: #ffffff;
     margin: 0;
+    text-align: center;
 }
 
 h1 + p {
@@ -155,6 +156,10 @@ button {
     letter-spacing: .08em;
     background: rgba(89, 36, 129, 1);
     box-shadow: 2px 4px 8px rgba(152, 84, 203, .5);
+}
+
+button:hover {
+    box-shadow: 2px 4px 8px rgba(152, 84, 203, .95);
 }
 
 button:focus {
