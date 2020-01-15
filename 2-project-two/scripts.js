@@ -1,15 +1,25 @@
 // Project 2 Scripts //
-// var checkPass = document.querySelectorALL('[type="password"]');
-// var passwordInput = document.querySelector('#password');
+var checkPass = Array.prototype.slice.call(document.querySelectorAll('[type="password"]'));
+var showPassword = document.querySelector('#show-passwords');
 
-// if (checkPass) {
-//     checkPass.addEventListener('click', function (showPassword) {
-//         if (checkPass.checked) {
-//             password.type = 'text';
-//         } else {
-//             password.type = 'password';
-//         }
-//     }, false);
-// }
+console.log(checkPass);
+console.log(showPassword);
 
+
+
+showPassword.addEventListener('click', function (event) {
+	checkPass.forEach(function (password) {
+
+		if (showPassword.checked) {
+			password.type = 'text';
+		} else {
+			password.type = 'password';
+        }
+        
+        console.log(password.value);
+        
+
+	});
+
+}, false);
 
