@@ -39,6 +39,12 @@ h1 {
     color: #ffffff;
 }
 
+.name-sub a:focus,
+.name-sub a:hover {
+    outline: none;
+    font-size: 1.1em;
+}
+
 ul {
     list-style: none;
     margin: 2em auto 4em;
