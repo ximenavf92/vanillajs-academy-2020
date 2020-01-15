@@ -15,10 +15,6 @@ showPassword.addEventListener('click', function (event) {
 		} else {
 			password.type = 'password';
         }
-        
-        console.log(password.value);
-        
-
 	});
 
 }, false);
