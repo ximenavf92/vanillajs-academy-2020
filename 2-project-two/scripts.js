@@ -1,21 +1,17 @@
-// Project 2 Scripts //
-var checkPass = Array.prototype.slice.call(document.querySelectorAll('[type="password"]'));
-var showPassword = document.querySelector('#show-passwords');
-
-console.log(checkPass);
-console.log(showPassword);
+// Get & store all elements (input) with a type of password (querySelectorAll) and convert the returned node list into an array (Array.prptptype.slice.call(…) ).
+var getPasswords = Array.prototype.slice.call(document.querySelectorAll('[type=password]'));
+// Get checkbox with ID of show-passwords
+var checkbox = document.querySelector('#show-passwords');
 
 
-
-showPassword.addEventListener('click', function (event) {
-	checkPass.forEach(function (password) {
-
-		if (showPassword.checked) {
-			password.type = 'text';
-		} else {
-			password.type = 'password';
-        }
-	});
-
-}, false);
-
+if (checkbox) { // If checkbox exists run the following loop
+    getPasswords.forEach(function (getPasswords) {
+        checkbox.addEventListener('click', function (event) {
+            if (checkbox.checked) {
+                getPasswords.type = 'text'; // If checkbox is checked change type to password
+            } else { 
+                getPasswords.type = 'password'; // If checkbox is not checked change type to password
+            }
+        });
+    });
+};
