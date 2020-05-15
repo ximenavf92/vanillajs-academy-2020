@@ -9,4 +9,4 @@ if (checkbox) { // if element stored in checkbox exists trigger the following ev
             getPassword.type = "password"; // if not checked set type to password and conceal password input value
         }
     })
-}
+};
