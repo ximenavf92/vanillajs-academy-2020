@@ -5,41 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Project 2: Password Visibility - Multiple Fields</title>
+	<link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Gelasio:600|Montserrat:500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../general.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-	<h1>Project 2: Password Visibility - Multiple Fields</h1>
-
-	<p>Enter your current password and new password below.</p>
-
-	<form>
-		<div>
-			<label for="current-password">Current Password</label>
-			<input type="password" name="current-password" id="current-password">
+	<main>
+		<h1>Project 2: Password Visibility - Multiple Fields</h1>
+	
+		<p>Enter your current password and new password below.</p>
+	
+		<form>
+			<div>
+				<label for="current-password">Current Password</label>
+				<input type="password" name="current-password" id="current-password">
+			</div>
+	
+			<div>
+				<label for="new-password">New Password</label>
+				<input type="password" name="new-password" id="new-password">
+			</div>
+	
+			<div>
+				<label for="show-passwords">
+					<input type="checkbox" name="show-passwords" id="show-passwords">
+					Show passwords
+				</label>
+			</div>
+	
+			<p>
+				<button type="submit">Change Passwords</button>
+			</p>
+		</form>
+	</main>
+	<footer>
+		<div class="project-buttons">
+			<a href="../index.html" class="back-projects">Back to projects</a>
+			<a href="https://github.com/ximenavf92/vanillajs-academy-2020/tree/master/2-project-two" class="view-github" target="_blank" rel="noopener">View on Github</a>
 		</div>
-
-		<div>
-			<label for="new-password">New Password</label>
-			<input type="password" name="new-password" id="new-password">
-		</div>
-
-		<div>
-			<label for="show-passwords">
-				<input type="checkbox" name="show-passwords" id="show-passwords">
-				Show passwords
-			</label>
-		</div>
-
-		<p>
-			<button type="submit">Change Passwords</button>
-		</p>
-	</form>
-	<div class="project-buttons">
-		<a href="../index.html" class="back-projects">Back to projects</a>
-		<a href="https://github.com/ximenavf92/vanillajs-academy-2020/tree/master/2-project-two" class="view-github" target="_blank" rel="noopener">View on Github</a>
-	</div>
+	</footer>
     <script src="scripts.js"></script>
 </body>
 </html>

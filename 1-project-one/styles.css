@@ -1,78 +1,30 @@
 /* Toggle Password Styles */ 
-@import url('https://fonts.googleapis.com/css?family=Gelasio:600|Montserrat:500&display=swap');
-
-/* Project Buttons */
-.project-buttons {
-    width: 70%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
-.back-projects,
-.view-github {
-    margin: 2.5em auto 0;
-    margin: 0 auto;
-    text-align: center;
-    width: max-content;
-    font-size: .8em;
-    padding: 15px 20px;
-    border: solid 2px #ffffff;
-    border-radius: 12px;
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.2);
-}
-
-.back-projects:hover,
-.back-projects:focus,
-.view-github:hover,
-.view-github:focus {
-    outline: none;
-    background: #000000;
-    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.8);
-}
-
-.back-projects::before {
-    content: '\003C';
-    margin-right: 5px;
-}
-
-.view-github::before {
-    content: '';
-    display: block;
-    float: left;
-    width: 20px;
-    height: 20px;
-    top: 25px;
-    margin-right: 10px;
-    background-image: url(/github-icon-white.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-/* End Project Buttons */
-
 /* Start Project Styles */
 body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background: #27104E;
+}
+
+main {
     margin: 2.5em auto 0;
     max-width: 50em;
     width: 88%;
-    background: #27104E;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
 }
 
 form {
     background: #ffffff;
-    width: 40%;
+    width: 80%;
     padding: 3em 2em 1.5em;
     margin: 1.5em auto 3em;
-    border-radius: 5%;
+    border-radius: 1rem;
     box-shadow: 2px 4px 8px rgba(152, 84, 203, .5);
+}
+
+@media (min-width: 800px) {
+    form {
+        width: 40%;
+    }
 }
 
 form div {

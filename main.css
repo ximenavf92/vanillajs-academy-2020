@@ -1,6 +1,4 @@
 /* Main Styles VanillaJS Academy 2020 */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
-
 *,
 *::before,
 *::after {
@@ -117,6 +115,7 @@ ul a {
     float: left;
     width: 20px;
     height: 20px;
+    top: .1em;
     margin-right: 10px;
     background-image: url(/github-icon-white.svg);
     background-repeat: no-repeat;
